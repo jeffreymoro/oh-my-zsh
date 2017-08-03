@@ -106,6 +106,8 @@ bindkey "^[^[[D" backward-word
 alias cdh='cd ~'
 alias cdc='cd ~/Documents/Projects/Code'
 alias cdw='cd ~/Documents/Projects/Writing'
+alias cdp='cd ~/Documents/Projects'
+alias cdo='cd ~/Documents/Projects/Other'
 alias cdd='cd ~/Desktop'
 alias cdjm='cd ~/Documents/Projects/Code/_websites/jeffreymoro-dot-com'
 alias cdx='cd ~/Documents/Projects/Applications/_exec'
