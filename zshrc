@@ -111,6 +111,8 @@ alias cdo='cd ~/Documents/Projects/Other'
 alias cdd='cd ~/Desktop'
 alias cdjm='cd ~/Documents/Projects/Code/_websites/jeffreymoro-dot-com'
 alias cdx='cd ~/Documents/Projects/Applications/_exec'
+alias cdn='cd ~/Dropbox/Notes/'
+alias cdsn='cd ~/Dropbox/Notes/source-notes'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -138,10 +140,6 @@ alias init-twarc='source ~/Applications/twarc/venv/bin/activate'
 alias init-csvkit='source ~/Applications/csvkit/venv/bin/activate'
 alias init-xmlutils='source ~/Applications/xmlutils/venv/bin/activate'
 alias init-videogrep='source ~/Applications/videogrep/venv/bin/activate'
-
-## Control kwm
-alias kwms='brew services start kwm'
-alias kwmq='brew services stop kwm'
 
 ## Jekyll
 alias serve-jm='cdjm && bundle exec jekyll serve'
