@@ -143,3 +143,4 @@ alias init-videogrep='source ~/Applications/videogrep/venv/bin/activate'
 
 ## Jekyll
 alias serve-jm='cdjm && bundle exec jekyll serve'
+alias buildtags='cdjm && tag-gen _data/tags.yaml'
