@@ -134,13 +134,12 @@ alias cr="cmus-remote -r"
 alias cq="cmus-remote -C quit"
 
 ## venv Programs
-alias init-rainbowstream='source /Users/jeffreymoro/Applications/rainbowstream/venv/bin/activate; rainbowstream'
-alias init-rainbowstream-i='source /Users/jeffreymoro/Applications/rainbowstream/venv/bin/activate; rainbowstream -iot'
-alias init-twarc='source ~/Applications/twarc/venv/bin/activate'
-alias init-csvkit='source ~/Applications/csvkit/venv/bin/activate'
-alias init-xmlutils='source ~/Applications/xmlutils/venv/bin/activate'
-alias init-videogrep='source ~/Applications/videogrep/venv/bin/activate'
+alias init-twarc='source ~/Applications/twarc/bin/activate'
+alias init-csvkit='source ~/Applications/csvkit/bin/activate'
 
 ## Jekyll
 alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
+
+## In case nvALT does really die
+alias nvim='nvim ~/Dropbox/Notes/nvim/'
