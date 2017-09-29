@@ -142,4 +142,4 @@ alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
 
 ## In case nvALT does really die
-alias nvim='nvim ~/Dropbox/Notes/nvim/'
+alias nvim='nvim ~/Dropbox/Notes/nv/'
