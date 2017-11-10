@@ -77,6 +77,7 @@ prompt pure
 export EDITOR='vim'
 export VISUAL='/Applications/Sublime Text.app'
 export PAGER='less'
+export PDF='/Applications/Preview.app'
 
 path=(
   /usr/local/{bin,sbin}
@@ -112,7 +113,7 @@ alias cdd='cd ~/Desktop'
 alias cdjm='cd ~/Documents/Projects/Code/_websites/jeffreymoro-dot-com'
 alias cdx='cd ~/Documents/Projects/Applications/_exec'
 alias cdn='cd ~/Dropbox/Notes/'
-alias cdsn='cd ~/Dropbox/Notes/source-notes'
+alias cdsn='cd ~/Documents/Projects/Code/_websites/notes-dot-jm-dot-com'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
