@@ -105,15 +105,15 @@ bindkey "^[^[[D" backward-word
 
 ## Navigation
 alias cdh='cd ~'
-alias cdc='cd ~/Documents/Projects/Code'
-alias cdw='cd ~/Documents/Projects/Writing'
-alias cdp='cd ~/Documents/Projects'
-alias cdo='cd ~/Documents/Projects/Other'
+alias cdc='cd ~/Dropbox/Projects/Code'
+alias cdw='cd ~/Dropbox/Projects/Writing'
+alias cdp='cd ~/Dropbox/Projects'
+alias cdo='cd ~/Dropbox/Projects/Other'
 alias cdd='cd ~/Desktop'
-alias cdjm='cd ~/Documents/Projects/Code/_websites/jeffreymoro-dot-com'
-alias cdx='cd ~/Documents/Projects/Applications/_exec'
+alias cdjm='cd ~/Dropbox/Projects/Code/_websites/jeffreymoro-dot-com'
+alias cdx='cd ~/Applications/_exec'
 alias cdn='cd ~/Dropbox/Notes/'
-alias cdsn='cd ~/Documents/Projects/Code/_websites/notes-dot-jm-dot-com'
+alias cdsn='cd ~/Dropbox/Projects/Code/_websites/notes-dot-jm-dot-com'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
