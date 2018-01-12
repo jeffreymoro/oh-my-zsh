@@ -60,6 +60,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 fpath=( "$HOME/.dotfiles/oh-my-zsh/custom/plugins/pure" $fpath )
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 autoload -U promptinit; promptinit
 prompt pure
