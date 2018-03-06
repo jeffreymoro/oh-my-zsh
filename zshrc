@@ -51,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx screen sublime zsh-syntax-highlighting zsh-autosuggestions history history-substring-search)
+plugins=(git osx screen atom zsh-syntax-highlighting zsh-autosuggestions history history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -76,7 +76,7 @@ prompt pure
 # fi
 
 export EDITOR='vim'
-export VISUAL='/Applications/Sublime Text.app'
+export VISUAL='/Applications/Atom.app'
 export PAGER='less'
 export PDF='/Applications/Preview.app'
 
