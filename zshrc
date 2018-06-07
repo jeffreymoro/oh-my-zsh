@@ -75,8 +75,8 @@ prompt pure
 #   export EDITOR='mvim'
 # fi
 
-export EDITOR='vim'
-export VISUAL='/Applications/Atom.app'
+export EDITOR='nano'
+export VISUAL='nano'
 export PAGER='less'
 export PDF='/Applications/Preview.app'
 
@@ -134,6 +134,7 @@ alias cs="cmus-remote -s"
 alias cn="cmus-remote -n"
 alias cr="cmus-remote -r"
 alias cq="cmus-remote -C quit"
+alias music="ncmpcpp"
 
 ## venv Programs
 alias init-twarc='source ~/Applications/twarc/bin/activate'
@@ -142,6 +143,3 @@ alias init-csvkit='source ~/Applications/csvkit/bin/activate'
 ## Jekyll
 alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
-
-## In case nvALT does really die
-alias nvim='nvim ~/Dropbox/Notes/nv/'
