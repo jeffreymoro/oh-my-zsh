@@ -61,6 +61,8 @@ source $ZSH/oh-my-zsh.sh
 
 fpath=( "$HOME/.dotfiles/oh-my-zsh/custom/plugins/pure" $fpath )
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH="/usr/local/lib/ruby/gems/2.6.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 autoload -U promptinit; promptinit
 prompt pure
@@ -119,6 +121,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias h="habitctl"
 
 ## Utilities
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
