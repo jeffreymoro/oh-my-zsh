@@ -126,8 +126,6 @@ alias h="habitctl"
 ## Utilities
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-alias todo='subl "/Users/jeffreymoro/Library/Application Support/Sublime Text 3/Packages/User/Projects/todo.sublime-project"'
-alias ia='open $1 -a /Applications/iA\ Writer.app'
 alias openf='open . /System/Library/CoreServices/Finder.app'
 
 ## Music
@@ -139,10 +137,9 @@ alias cr="cmus-remote -r"
 alias cq="cmus-remote -C quit"
 alias music="ncmpcpp"
 
-## venv Programs
-alias init-twarc='source ~/Applications/twarc/bin/activate'
-alias init-csvkit='source ~/Applications/csvkit/bin/activate'
-
 ## Jekyll
 alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
+
+## Dissertation
+alias cda='cd ~/Dropbox/Projects/Writing/dissertation'
