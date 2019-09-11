@@ -51,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx screen atom zsh-syntax-highlighting zsh-autosuggestions history history-substring-search)
+plugins=(git osx screen zsh-syntax-highlighting zsh-autosuggestions history history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,20 +108,18 @@ bindkey "^[^[[D" backward-word
 
 ## Navigation
 alias cdh='cd ~'
-alias cdc='cd ~/Dropbox/Projects/Code'
-alias cdw='cd ~/Dropbox/Projects/Writing'
-alias cdp='cd ~/Dropbox/Projects'
-alias cdo='cd ~/Dropbox/Projects/Other'
+alias cdc='cd ~/Documents/Projects/Code'
+alias cdw='cd ~/Documents/Projects/Writing'
+alias cdp='cd ~/Documents/Projects'
+alias cdo='cd ~/Documents/Projects/Other'
 alias cdd='cd ~/Desktop'
-alias cdjm='cd ~/Dropbox/Projects/Code/_websites/jeffreymoro-dot-com'
+alias cdjm='cd ~/Documents/Projects/Code/_websites/jeffreymoro-dot-com'
 alias cdx='cd ~/Applications/_exec'
-alias cdn='cd ~/Dropbox/Notes/'
-alias cdsn='cd ~/Dropbox/Projects/Code/_websites/notes-website'
+alias cdn='cd ~/Documents/Notes/'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias h="habitctl"
 
 ## Utilities
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
@@ -142,4 +140,5 @@ alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
 
 ## Dissertation
-alias cda='cd ~/Dropbox/Projects/Writing/dissertation'
+alias cda='cd ~/Documents/Projects/Writing/dissertation'
+alias cda1='cd ~/Documents/Projects/Writing/dissertation/1-breath-control'
