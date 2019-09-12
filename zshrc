@@ -125,6 +125,8 @@ alias .....="cd ../../../.."
 ## Utilities
 alias openf='open . /System/Library/CoreServices/Finder.app'
 alias backitallup="wri-backup && diss-backup && pdf-backup"
+alias python="python3"
+alias pip="pip3"
 
 ## Music
 alias cr="cmus-remote"
