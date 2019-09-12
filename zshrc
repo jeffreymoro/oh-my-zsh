@@ -51,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx screen zsh-syntax-highlighting zsh-autosuggestions history history-substring-search)
+plugins=(osx zsh-syntax-highlighting zsh-autosuggestions pass)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,8 +123,6 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 ## Utilities
-alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias openf='open . /System/Library/CoreServices/Finder.app'
 alias backitallup="wri-backup && diss-backup && pdf-backup"
 
