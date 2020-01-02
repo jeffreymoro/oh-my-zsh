@@ -109,14 +109,13 @@ bindkey "^[^[[D" backward-word
 
 ## Navigation
 alias cdh='cd ~'
-alias cdc='cd ~/Documents/Projects/Code'
-alias cdw='cd ~/Documents/Projects/Writing'
-alias cdp='cd ~/Documents/Projects'
-alias cdo='cd ~/Documents/Projects/Other'
+alias cdc='cd ~/Documents/Code'
+alias cdp='cd ~/Dropbox/active\ projects'
+alias cdcv='~/Documents/miscellaneous/_cv'
 alias cdd='cd ~/Desktop'
-alias cdjm='cd ~/Documents/Projects/Code/_websites/jeffreymoro-dot-com'
+alias cdjm='cd ~/Documents/Code/_websites/jeffreymoro-dot-com'
 alias cdx='cd ~/Applications/_exec'
-alias cdn='cd ~/Documents/Notes/'
+alias cdn='cd ~/Dropbox/Notes/'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -142,5 +141,5 @@ alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
 
 ## Dissertation
-alias cda='cd ~/Documents/Projects/Writing/dissertation'
-alias cda1='cd ~/Documents/Projects/Writing/dissertation/1-breath-control'
+alias cda='cd ~/Dropbox/active\ projects/dissertation'
+alias cda1='cd ~/Dropbox/active\ projects/dissertation/1-breath-control'
