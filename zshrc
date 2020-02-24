@@ -137,9 +137,12 @@ alias cq="cmus-remote -C quit"
 alias music="ncmpcpp"
 
 ## Jekyll
-alias serve-jm='cdjm && bundle exec jekyll serve'
+alias serve-jm='cdjm && bundle exec jekyll serve 2>/dev/null'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
 
 ## Dissertation
 alias cda='cd ~/Dropbox/active\ projects/dissertation'
 alias cda1='cd ~/Dropbox/active\ projects/dissertation/1-breath-control'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
