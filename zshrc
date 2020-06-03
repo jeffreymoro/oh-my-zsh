@@ -61,8 +61,6 @@ source $ZSH/oh-my-zsh.sh
 
 fpath=( "$HOME/.dotfiles/oh-my-zsh/custom/plugins/pure" $fpath )
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="/usr/local/lib/ruby/gems/2.6.0/bin:$PATH"
-export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 autoload -U promptinit; promptinit
 prompt pure
@@ -137,12 +135,12 @@ alias cq="cmus-remote -C quit"
 alias music="ncmpcpp"
 
 ## Jekyll
-alias serve-jm='cdjm && bundle exec jekyll serve 2>/dev/null'
+alias serve-jm='cdjm && bundle exec jekyll serve'
 alias buildtags='cdjm && tag-gen _data/tags.yaml'
 
 ## Dissertation
 alias cda='cd ~/Dropbox/active\ projects/dissertation'
 alias cda1='cd ~/Dropbox/active\ projects/dissertation/1-breath-control'
+alias cda2='cd ~/Dropbox/active\ projects/dissertation/2-air-conditioning'
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+eval "$(rbenv init -)"
