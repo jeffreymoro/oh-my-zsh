@@ -87,6 +87,10 @@ path=(
   $path
 )
 
+export PATH="/Users/jeffreymoro/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 bindkey "^[^[[C" forward-word
 bindkey "^[^[[D" backward-word
 
@@ -126,13 +130,7 @@ alias python="python3"
 alias pip="pip3"
 
 ## Music
-alias cr="cmus-remote"
-alias cu="cmus-remote -u"
-alias cs="cmus-remote -s"
-alias cn="cmus-remote -n"
-alias cr="cmus-remote -r"
-alias cq="cmus-remote -C quit"
-alias music="ncmpcpp"
+alias n="ncmpcpp"
 
 ## Jekyll
 alias serve-jm='cdjm && bundle exec jekyll serve'
@@ -142,5 +140,8 @@ alias buildtags='cdjm && tag-gen _data/tags.yaml'
 alias cda='cd ~/Dropbox/active\ projects/dissertation'
 alias cda1='cd ~/Dropbox/active\ projects/dissertation/1-breath-control'
 alias cda2='cd ~/Dropbox/active\ projects/dissertation/2-air-conditioning'
+
+## Utils
+alias weather='curl wttr.in'
 
 eval "$(rbenv init -)"
