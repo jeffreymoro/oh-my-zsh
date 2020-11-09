@@ -60,7 +60,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 fpath=( "$HOME/.dotfiles/oh-my-zsh/custom/plugins/pure" $fpath )
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+#export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 autoload -U promptinit; promptinit
 prompt pure
@@ -84,6 +84,7 @@ path=(
   /usr/local/{bin,sbin}
   $HOME/Applications/_exec
   $HOME/Applications/_exec/backup-scripts
+  $HOME/.local/bin
   $path
 )
 
@@ -115,7 +116,7 @@ alias cdc='cd ~/Documents/Code'
 alias cdp='cd ~/Dropbox/active\ projects'
 alias cdcv='~/Documents/miscellaneous/_cv'
 alias cdd='cd ~/Desktop'
-alias cdjm='cd ~/Documents/Code/_websites/jeffreymoro-dot-com'
+alias cdjm='cd ~/Documents/Code/_websites/jeffreymoro-dot-hugo'
 alias cdx='cd ~/Applications/_exec'
 alias cdn='cd ~/Dropbox/Notes/'
 alias ..="cd .."
@@ -140,8 +141,6 @@ alias buildtags='cdjm && tag-gen _data/tags.yaml'
 alias cda='cd ~/Dropbox/active\ projects/dissertation'
 alias cda1='cd ~/Dropbox/active\ projects/dissertation/1-breath-control'
 alias cda2='cd ~/Dropbox/active\ projects/dissertation/2-air-conditioning'
-
-## Utils
-alias weather='curl wttr.in'
+alias cda4='cd ~/Dropbox/active\ projects/dissertation/4-machine-reading'
 
 eval "$(rbenv init -)"
